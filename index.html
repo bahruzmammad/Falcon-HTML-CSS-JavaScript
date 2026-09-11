@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Falcon | Food Delivery</title>
+    </head>
+    <body>
+        <nav class="navigation">
+            <div class="navigation-header">
+                <div class="navigation-logo">
+                    <a href="#">
+                        <img
+                            src="assets/logo-white.png"
+                            alt="Falcon logo"
+                            class="logo logo-white"
+                        />
+                        <img
+                            src="assets/logo-dark.png"
+                            alt="Falcon logo"
+                            class="logo logo-dark"
+                        />
+                    </a>
+                </div>
+                <div class="mobile-menu-button" id="mobile-menu-button">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+            <ul class="navigation-links" id="navigation-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#food-cart">Food Cart</a></li>
+            </ul>
+            <div class="navigation-actions">
+                <button class="button icon-button">
+                    <i class="ri-search-line"></i>
+                </button>
+                <button class="button icon-button">
+                    <i class="ri-shopping-bag-line"></i>
+                </button>
+            </div>
+        </nav>
+        <header class="section-container hero-section" id="home">
+            <div class="hero-image-container">
+                <div class="hero-image">
+                    <img src="assets/header.png" alt="Falcon food delivery" />
+                </div>
+                <div class="hero-image-footer">
+                    <img src="assets/user-1.jpg" alt="Customer" />
+                    <p>Fast delivery with great taste and convenience.</p>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-label">
+                    <span> <img src="assets/header.png" alt="Food" /> </span>
+                    <h2>Eat Healthy, Stay Healthy</h2>
+                </div>
+                <h1>Be The <span>First</span> Delivery & Easy Pick Up</h1>
+                <p>
+                    Be the first to experience hassle-free delivery and easy
+                    pick-up options designed to save your time and satisfy your
+                    cravings.
+                </p>
+                <div class="hero-actions">
+                    <button class="button primary-button">
+                        Order Now
+                        <span><i class="ri-arrow-right-line"></i></span>
+                    </button>
+                    <button class="button secondary-button">
+                        Book A Table
+                    </button>
+                </div>
+                <div class="popular-food-list">
+                    <div class="food-card">
+                        <img
+                            src="assets/header_content-1.jpg"
+                            alt="Chicken Biryani"
+                        />
+                        <h4>Chicken Biryani</h4>
+                    </div>
+                    <div class="food-card">
+                        <img
+                            src="assets/header_content-2.jpg"
+                            alt="Handi Mutton"
+                        />
+                        <h4>Handi Mutton</h4>
+                    </div>
+                    <div class="food-card">
+                        <img
+                            src="assets/header_content-3.jpg"
+                            alt="Kala Bhuna"
+                        />
+                        <h4>Kala Bhuna</h4>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section-container menu-section" id="menu">
+            <h2 class="section-title">Our Popular <span>Dishes</span></h2>
+            <div class="menu-list">
+                <div class="menu-item">
+                    <img src="assets/menu-1.jpg" alt="Kala Bhuna" />
+                    <h4>Kala Bhuna</h4>
+                    <p>
+                        A rich and flavorful slow-cooked beef dish infused with
+                        aromatic spices for a traditional taste.
+                    </p>
+                    <div class="menu-item-footer">
+                        <h3>$50.99</h3>
+                        <button class="button primary-button">
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="assets/menu-2.jpg" alt="Handi Mutton" />
+                    <h4>Handi Mutton</h4>
+                    <p>
+                        Tender mutton simmered to perfection in a pot with a
+                        blend of spices for an authentic and hearty meal.
+                    </p>
+                    <div class="menu-item-footer">
+                        <h3>$75.49</h3>
+                        <button class="button primary-button">
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="assets/menu-3.jpg" alt="Egg Curry" />
+                    <h4>Egg Curry</h4>
+                    <p>
+                        A classic dish featuring boiled eggs in a spiced tomato
+                        and onion gravy, perfect with rice or bread.
+                    </p>
+                    <div class="menu-item-footer">
+                        <h3>$30.99</h3>
+                        <button class="button primary-button">
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-actions">
+                <button class="button primary-button">
+                    See All Dishes
+                    <span><i class="ri-arrow-right-line"></i></span>
+                </button>
+            </div>
+        </section>
+        <section class="services-section" id="services">
+            <div class="section-container">
+                <h2 class="section-title">How Does It <span>Work?</span></h2>
+                <div class="services-list">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="assets/service-1.png"
+                                alt="Choose your meals"
+                            />
+                        </div>
+                        <h4>Choose Your Meals</h4>
+                        <p>
+                            Browse through our delicious menu filled with a
+                            variety of dishes and select your favorites
+                            effortlessly to satisfy your cravings.
+                        </p>
+                        <a href="#">
+                            Read More
+                            <span><i class="ri-arrow-right-line"></i></span>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="assets/service-2.png"
+                                alt="Track your order"
+                            />
+                        </div>
+                        <h4>Track Your Order</h4>
+                        <p>
+                            Keep an eye on your meal with real-time updates from
+                            the kitchen to your location, ensuring a seamless
+                            and transparent experience.
+                        </p>
+                        <a href="#">
+                            Read More
+                            <span><i class="ri-arrow-right-line"></i></span>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="assets/service-3.png"
+                                alt="Delivery and pickup"
+                            />
+                        </div>
+                        <h4>Easy Delivery & Pickup</h4>
+                        <p>
+                            Experience ultimate convenience with easy pickup
+                            options or doorstep delivery, bringing your favorite
+                            meals straight to you.
+                        </p>
+                        <a href="#">
+                            Read More
+                            <span><i class="ri-arrow-right-line"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="food-cart-section" id="food-cart">
+            <div class="section-container food-cart-container">
+                <div class="food-cart-image">
+                    <img src="assets/banner.jpg" alt="Healthy food" />
+                </div>
+                <div class="food-cart-content">
+                    <h2 class="section-title">
+                        Eat Healthy, Stay <span>Healthy</span>
+                    </h2>
+                    <p>
+                        At Falcon, we believe that good food is the foundation
+                        of a healthy life. Our meals are crafted with fresh
+                        ingredients and balanced nutrition, helping you maintain
+                        a healthy lifestyle while enjoying delicious flavors.
+                    </p>
+                    <div class="food-cart-actions">
+                        <button class="button primary-button">
+                            Read More
+                            <span><i class="ri-arrow-right-line"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-container testimonials-section">
+            <div class="testimonials-image">
+                <img src="assets/customer.png" alt="Falcon customer" />
+            </div>
+            <div class="testimonials-content">
+                <h2 class="section-title">Customer <span>Reviews</span></h2>
+                <div class="swiper customer-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-header">
+                                    <div>Verified Purchase</div>
+                                    <span>23 Oct 2024</span>
+                                </div>
+                                <p>
+                                    This is my go-to choice for healthy meals on
+                                    busy days. I appreciate how they balance
+                                    flavor with nutrition, making it easy to
+                                    stick to my healthy eating goals while still
+                                    enjoying delicious food.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <img
+                                        src="assets/customer-1.jpg"
+                                        alt="Sarah Johnson"
+                                    />
+                                    <div>
+                                        <h4>Sarah Johnson</h4>
+                                        <h5>Nutritionist</h5>
+                                        <div class="rating">
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i
+                                                    class="ri-star-half-fill"
+                                                ></i
+                                            ></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-header">
+                                    <div>Verified Purchase</div>
+                                    <span>15 Nov 2024</span>
+                                </div>
+                                <p>
+                                    I love the convenience and variety they
+                                    offer. The real-time order tracking is such
+                                    a thoughtful feature. It ensures I never
+                                    have to wonder about my meal's status.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <img
+                                        src="assets/customer-2.jpg"
+                                        alt="Rajesh Patel"
+                                    />
+                                    <div>
+                                        <h4>Rajesh Patel</h4>
+                                        <h5>Software Engineer</h5>
+                                        <div class="rating">
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-header">
+                                    <div>Verified Purchase</div>
+                                    <span>23 Nov 2024</span>
+                                </div>
+                                <p>
+                                    The dishes are not only flavorful but also
+                                    packed with nutrients, which is essential
+                                    for my active lifestyle. It's a fantastic
+                                    option for anyone who values healthy eating.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <img
+                                        src="assets/customer-3.jpg"
+                                        alt="Emily Brown"
+                                    />
+                                    <div>
+                                        <h4>Emily Brown</h4>
+                                        <h5>Fitness Trainer</h5>
+                                        <div class="rating">
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i class="ri-star-fill"></i
+                                            ></span>
+                                            <span
+                                                ><i
+                                                    class="ri-star-half-fill"
+                                                ></i
+                                            ></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="button slider-button swiper-prev">
+                            <i class="ri-arrow-left-line"></i>
+                        </button>
+                        <button class="button slider-button swiper-next">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="section-container footer-container">
+                <div class="footer-column">
+                    <a href="#" class="footer-logo">
+                        <img src="assets/logo-dark.png" alt="Falcon logo" />
+                    </a>
+                    <p>
+                        Experience fast delivery, easy pickup, and a menu
+                        crafted to satisfy every craving. Eat healthy, stay
+                        happy.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Releases</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Social</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Licenses</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                Copyright © 2026 Falcon. All rights reserved.
+            </div>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
